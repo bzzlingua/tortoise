@@ -37,13 +37,15 @@ header {
   .nav-bar-menu {
       display: flex;
     list-style: none;
-    justify-content: space-between;
     align-items: center;
+      color: white;
+
 }
 
 .nav-bar-menu span {
   margin-right: 2rem;
-  color: white;
+
+  padding-right: .77rem;
 }
   .truncated-menu{
     display: none;
@@ -54,9 +56,14 @@ header {
   background-color: white;
   color: black;
   width: 100%;
+  margin-top: 10rem;
 }
 
 
 .headline p{
       font-size: 2rem;
       font-weight: bold;
+      margin-top: 1.5rem;
+      margin-bottom: 1.5rem;
+      margin-right: 5rem;
+      margin-left: 5rem;

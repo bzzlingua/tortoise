@@ -12,32 +12,36 @@
 <body>
 
 
-<!--nav-bar container-->
+<!--banner with logo and menu-->
 <header>
-  <div class="container">
-    <div>
-      <img src="resources/images/logo-white.png"/>
+  <div class="container-cadetblue">
+    <div class="logo">
+       <img src="resources/images/logo-white.png"/>
        <span>Tortoiseshell Optics</span>
      </div>
-   <div class="nav-bar-menu">
-         <span><a href="#">Services</a></span>
-         <span><a href="#">Product</a></span>
-         <span><a href="#">Contact</a></span>
-         <ul class="truncated-menu">
-           <li>Menu</li>
-         </ul>
-      </div>
-    </div>
 
-   <!--main container -->
-<div class="main-container">
-  <div class="headline">
-     <p>Don't Just Look, See.</p>
+     <nav>
+       <div class="banner-menu">
+         <span><a href="services" style="color: white">Services</a></span>
+         <span><a href="products" style="color: white">Product</a></span>
+         <span><a href="contact" style="color: white">Contact</a></span>
+       </div>
+      <select class="truncated-menu">
+        <option><a href="services" style="color: white">Services</a></option>
+        <option><a href="products" style="color: white">Products</a></option>
+        <option><a href="contact" style="color: white">Contact</a></option>
+      </select>
+    </nav>
+  </div>
+  <!--end of container-cadetblue-->
+ <!--main container with headline -->
+  <div class="main-container">
+    <div class="headline">
+       <p>Don't Just Look, See.</p>
     </div>
-
-</div>
-</div>
+  </div>
 </header>
+<!--end of header section-->
 
 <!--service offer-->
    <div class="service">
@@ -70,3 +74,5 @@
        We’re open Tuesday - Saturday, 9AM - 6PM.</p>
   </div>
   </div>
+</body>
+</html>

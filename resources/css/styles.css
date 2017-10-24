@@ -149,3 +149,32 @@ header {
   font-size: 1rem;
   justify-content: center;
 }
+
+
+/*footer*/
+footer {
+  height: 9.5rem;
+  width: 960px;
+  text-align: left;
+  margin-top: 4rem;
+  margin-left: 10rem;
+  background-color: azure;
+
+}
+
+footer img {
+  height: 1.5rem;
+  margin-left: 3rem;
+  margin-top: 4rem;
+}
+
+footer span {
+  font-size: 1.5rem;
+}
+
+
+@media screen and (max-device-width: 1024px)
+{
+  html  {
+    background-size: 100% 22rem;
+  }

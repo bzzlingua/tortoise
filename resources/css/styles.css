@@ -13,8 +13,7 @@ header {
   height: 27.5rem;
   max-width: 996px;
   margin: auto;
-  border: 1px solid black;
-  }
+}
 
 .container-cadetblue {
   display: flex;
@@ -27,7 +26,6 @@ header {
   align-items: center;
   margin: 1rem auto 0 auto;
   height: 3.4;
-
 }
 
 .logo {
@@ -52,6 +50,7 @@ header {
   padding-left: 18rem;
   margin-right: 2rem;
 }
+
 .menu span {
   margin: 1rem 0 1rem 2rem;
   display: flex;
@@ -87,7 +86,7 @@ header .main-container {
   justify-content: center;
   margin: none;
   height: 14rem;
- width: 100%;
+  width: 100%;
  }
 
 .grid {
@@ -136,7 +135,7 @@ header .main-container {
   justify-content: center;
   margin: none;
  width: 100%;
- }
+  }
 
 .mission-grid {
   width: 960px;
@@ -195,4 +194,92 @@ footer {
 
 .copyright-logo span {
   font-size: 1rem;
+}
+/*Media Query*/
+
+@media screen and (max-device-width: 1024px) {
+  html  {
+    background-size: 100% 22rem;
+  }
+
+  .container-cadetblue {
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+
+  header {
+   height: 22rem;
+   max-width: 960px;
+  }
+
+  .headline {
+    margin-top: 10rem;
+    margin-right: 2rem;
+  }
+
+  .headline p {
+    font-size: 1.33rem;
+    margin: 0.75rem 4rem;
+  }
+}
+
+@media only screen and (max-width: 480px){
+
+  html  {
+    background-position: 20%;
+      }
+  .container-cadetblue {
+    width: 100%;
+    margin: 0 0 0 0;
+  }
+
+  header {
+   height: 17rem;
+   max-width: 960px;
+  }
+
+  .headline {
+    margin-top: 9rem;
+    margin: 0;
+  }
+
+  .headline p {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 1rem 0;
+    justify-content: center;
+  }
+
+  .truncated-menu {
+    display: block;
+  }
+
+  .grid {
+
+    display: column;
+    justify-content: center;
+  }
+
+  .cell1, .cell2 {
+    margin-top: 3.77rem;
+  }
+
+  .cell3 {
+    margin-top: 1.54rem;
+  }
+  .description {
+    font-size: 0.77rem;
+  }
+
+  .mission {
+    display: column;
+  }
+
+  .appointments {
+    margin-top: 4rem;
+  }
+
+  .philosophy, .appointments {
+     font-size: 0.77rem;
+  }
 }

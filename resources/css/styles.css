@@ -13,11 +13,8 @@ header {
   height: 27.5rem;
   max-width: 996px;
   margin: auto;
-  background-image:  url("../images/glasses-bg.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
 }
+
 
 .container-cadetblue {
   display: flex;

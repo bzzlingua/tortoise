@@ -1,82 +1,92 @@
-html
-body{
-   font-family: Helvetica, sans-serif;
-   font-size: 18px;
+html {
+  font-size: 18px;
    line-height: 1.4;
- }
- /*banner with company logo */
+   background: url("../images/glasses-bg.png") center top no-repeat;
+       background-size: auto 31rem;
+}
 
 header {
-  background-image: url("../images/glasses-bg.png");
-  height: 30rem;
-  background-size: auto 31rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 0;
-  margin-top: 1rem;
-}
+  display: column;
+  justify-content: center;
+  font-family: Helvetica, sans-serif;
+  height: 27.5rem;
+  max-width: 996px;
+  margin: auto;
+  border: 1px solid black;
+  }
 
 .container-cadetblue {
-    display: flex;
-    background-color: cadetblue;
-    color: white;
-    font-size: 1rem;
-    width: 960px;
-    justify-content: end;
-  }
+  display: flex;
+  background-color: cadetblue;
+  color: white;
+  width: 960px;
+  flex-wrap: wrap;
+  flex-direction: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto 0 auto;
+  height: 3.4;
 
-  .logo {
-    display: flex;
-    justify-content: end;
-    height: 1.5rem;
-    font-size: 1rem;
-      margin: 1rem 2rem;
-  }
+}
 
-  .logo img {
-   height: 1.5rem;
-   padding-right: 1rem;
-  }
+.logo {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-right: 1rem;
+  margin-left: 2rem;
+  height: 1.5rem;
+}
 
-  .banner-menu {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin: 1rem 2rem;
-    }
+.logo-name {
+  font-size: 1rem;
+  margin: 1rem 0;
+}
 
-.banner-menu span {
+.truncated-menu {
+  display: none;
+}
+
+.menu {
+  display: flex;
+  padding-left: 18rem;
+  margin-right: 2rem;
+}
+.menu span {
+  margin: 1rem 0 1rem 2rem;
   display: flex;
   justify-content: flex-end;
-  margin-left: 2rem;
+  font-size: 1rem;
 }
 
-  .truncated-menu{
-    display: none;
-  }
+header .main-container {
+  justify-content: flex-end;
+  display: flex;
+  border: 1px solid black;
+    }
 
-.headline{
+.headline {
+  display: flex;
   background-color: white;
   color: black;
-  width: 100%;
+  text-align: center;
   margin-top: 10rem;
+  margin-right: 0;
+  border: 1px solid black;
 }
 
 
-.headline p{
-      font-size: 2rem;
-      font-weight: bold;
-      margin-top: 1.5rem;
-      margin-bottom: 1.5rem;
-      margin-right: 5rem;
-      margin-left: 5rem;
+.headline p {
+  text-transform: uppercase;
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 1.5rem 5rem;
+  line-height: 1.2;
 }
 
 .service {
   display: flex;
   justify-content: center;
-  margin: 0;
+  margin: none;
   height: 20rem;
  width: 100%;
 }
@@ -120,61 +130,3 @@ header {
   width: 5rem;
   height: 5rem;
 }
-
-.subcontainer {
-  width: 960px;
-  display: flex;
-  font-family: Helvetica, sans-serif;
-  margin-top: none;
-  border: 1px solid black;
-  justify-content: center;
-}
-
-.philosophy, .appointments {
-  display: column;
-  width: 35%;
-  margin-bottom: 1rem;
-  margin-top: 0;
-  border: 1px solid black;
-  justify-content: center;
-}
-
-.philosophy-title, .appointments-title {
-  text-transform: uppercase;
-  background-color: cadetblue;
-  color: white;
-  width: 10rem;
-  margin: 0.5rem 1.25rem;
-  font-weight: bold;
-  font-size: 1rem;
-  justify-content: center;
-}
-
-
-/*footer*/
-footer {
-  height: 9.5rem;
-  width: 960px;
-  text-align: left;
-  margin-top: 4rem;
-  margin-left: 10rem;
-  background-color: azure;
-
-}
-
-footer img {
-  height: 1.5rem;
-  margin-left: 3rem;
-  margin-top: 4rem;
-}
-
-footer span {
-  font-size: 1.5rem;
-}
-
-
-@media screen and (max-device-width: 1024px)
-{
-  html  {
-    background-size: 100% 22rem;
-  }

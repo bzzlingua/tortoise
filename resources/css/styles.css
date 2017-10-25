@@ -62,8 +62,7 @@ header {
 header .main-container {
   justify-content: flex-end;
   display: flex;
-  border: 1px solid black;
-    }
+}
 
 .headline {
   display: flex;
@@ -72,7 +71,6 @@ header .main-container {
   text-align: center;
   margin-top: 10rem;
   margin-right: 0;
-  border: 1px solid black;
 }
 
 
@@ -99,7 +97,6 @@ header .main-container {
   flex-direction: row;
   justify-content: center;
   margin: none;
-  border: 1px solid black;
 }
 
 .cell1, .cell2, .cell3 {
@@ -113,7 +110,6 @@ header .main-container {
   margin-left: 3rem;
   align-items: center;
   justify-content: center;
-  border: 1px solid black;
 }
 
 .description {
@@ -140,8 +136,7 @@ header .main-container {
   justify-content: center;
   margin: none;
  width: 100%;
- border: 1px solid black;
-}
+ }
 
 .mission-grid {
   width: 960px;
@@ -149,7 +144,6 @@ header .main-container {
   justify-content: center;
   margin-top: none;
   margin-bottom: none;
-  border: 1px solid black;
 }
 
 .philosophy, .appointments {
@@ -157,7 +151,6 @@ header .main-container {
   flex-direction: column;
   width: 35%;
   margin: 0 2.5%;
-  border: 1px solid black;
   justify-content: center;
 }
 
